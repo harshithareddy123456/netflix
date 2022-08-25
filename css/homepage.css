@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+#header{
+
+    height: 750px;
+    border-bottom: 8px solid #222;
+    background-image: linear-gradient(to top, rgba(10, 10, 10, 0.7),rgba(10, 10, 10, 0.7)), url(https://assets.nflxext.com/ffe/siteui/vlv3/c0a32732-b033-43b3-be2a-8fee037a6146/2fe6e3c0-5613-4625-a0c1-3d605effd10b/IN-en-20210607-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+}
+.nav
+{
+    height: 97px;
+    padding: 1.5rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+    
+}
+.header1 .dropdown{
+    margin-right: 10px;
+}
+.language
+{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.signin
+{
+    color: white;
+    background-color: #e50914;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.signin:hover{
+    background-color: #dc3545;
+}
+#header .content{
+     color: white;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     flex-direction: column;
+     margin-top: 160px;
+}
+#header .content .cont11{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#header .content .cont1{
+    
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.1;
+    width: 640px;
+    justify-content: center;
+    text-align: center;
+}
+#header .content .cont2{
+    font-size: 1.625rem;
+    margin: 1rem auto;
+}
+#header .content .cont3
+{
+    font-size: 1.2rem;
+    border: none;
+    padding-bottom: 0.25rem!important;
+}
+.cont4{
+    margin: 1rem auto;
+    width: 700px;
+    display: flex;
+}
+.cont4 input{
+    width: 70%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    border-radius:0.25rem ;
+    height: 58px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 1px solid transparent;
+    outline: none;
+}
+.cont4 .normal{
+    background-color: #e50914;
+    font-size: 1.6rem;
+    outline: none;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 58px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 30%;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+}
+.cont4 .normal:hover{
+    background-color: #dc3545;
+}
+
+/* content section */
+
+
+#info
+{
+    display: flex;
+    padding-top: 3rem;
+    background-color: black;
+    flex-direction: column;
+}
+#info .info1
+{
+    border-bottom: 8px solid #222;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#info .info1 .cont{
+    padding: 3rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 495px;
+}
+#info .info1 .cont .maintitle
+{
+    font-weight: 600;
+    font-size: calc(1.375rem + 1.5vw);
+    margin-bottom: 0.5rem;
+}
+#info .info1 .cont .secondtitle{
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: calc(1.275rem + .3vw);
+    
+}
+#info .info1 .pic{
+    padding: 3rem;
+
+}
+
+/* question section */
+#questions{
+    padding-top: 3rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#questions .question{
+    width: 900px;
+    border-bottom: 8px solid #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#questions .question .questitle{
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+#questions .question .dp1{
+    background-color: #222;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 1.5rem;
+    width: 900px;
+}
+#questions .question .dp1 .dp11{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 30px;
+}
+#questions .question .dp1 .dp11 button{
+    background-color: transparent;
+    color: white;
+    outline: none;border: none;
+}
+#end
+{
+    background-color: black;
+    padding: 3rem 3rem;
+}
+#end .call
+{
+    color: white;
+    opacity: 0.5;
+    font-size: 15px;
+    cursor: pointer;
+}
+#end .call:hover
+{
+    text-decoration: underline;
+}
+#end .india
+{
+    color: white;
+    opacity: 0.5;
+    font-size: 15px;
+    line-height: 3rem;
+    
+}
+#end .inform{
+    display: flex;
+}
+#end .inform .inform1
+{
+    color: white;
+    opacity: 0.5;
+    font-size: 15px;
+    width: 25%;
+    line-height: 3rem;
+}
+#end .inform .inform1 div{
+    cursor: pointer;
+}
+#end .inform .inform1 div:hover{
+    text-decoration: underline;
+}
+.color
+{
+    color: white;
+    opacity: 0.5;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/* javascript dropdown */
+#answer{
+    display: none;
+}
+#answer.active{
+    display: block;
+    margin-top: 5px;
+}
+#answer1{
+    display: none;
+}
+#answer1.active1{
+    display: block;
+    margin-top: 5px;
+}
+#answer2{
+    display: none;
+}
+#answer2.active2{
+    display: block;
+    margin-top: 5px;
+}
+#answer3{
+    display: none;
+}
+#answer3.active3{
+    display: block;
+    margin-top: 5px;
+}
+#answer4{
+    display: none;
+}
+#answer4.active4{
+    display: block;
+    margin-top: 5px;
+}
+#answer5{
+    display: none;
+}
+#answer5.active5{
+    display: block;
+    margin-top: 5px;
+}
